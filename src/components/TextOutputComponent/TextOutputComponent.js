@@ -6,7 +6,7 @@ import SpanComponent from '../SpanComponent/SpanComponent'
 const TextOutputComponent = ({ words }) => {
   return (
     <Box sx={{ mt: 3 }}>
-      <Card sx={{ height: '80vh', p: 2 }} variant='outlined'>
+      <Card sx={{ height: '80vh', p: 2, overflow: 'auto' }} variant='outlined'>
         {words.map((word, i) => {
           if (word === '%Enter%') {
             return <br key={i} />
