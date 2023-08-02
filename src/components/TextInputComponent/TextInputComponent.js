@@ -13,7 +13,7 @@ const TextInputComponent = ({ setIsInputComponent, setWords }) => {
       <TextField
         sx={{ width: '100%', my: 3 }}
         id='outlined-textarea'
-        label='Вставьте Ваш текст сюда. Для перевода слова сделайте на нем клик мыши. Для перевода куска текста выделите его и также кликните мишью.'
+        label='Вставьте Ваш текст сюда. Для перевода слова сделайте на нем клик мыши. Для перевода фразы выделите её и также кликните мишью.'
         multiline
         rows={20}
         onChange={handleChange}
